@@ -1,1 +1,1 @@
-docker run -it --name allbro --network host --volumes-from brolgsvol thedude42/ubuntubro:latest
+docker run -it --name $CONTAINER_NAME --network host --volumes-from $BROLOGS_VOL $IMAGE_NAME
